@@ -16,7 +16,9 @@
         <h2>¿Cómo funciona Nutrimach?</h2>
         <p>Nutrimach utiliza análisis genéticos para brindarte recomendaciones alimenticias personalizadas. Indica tus datos y obtén un plan de nutrición adecuado para tu perfil.</p>
     </section>
-
+<Img src="A1.jpeg">
+<img src="a2.jpeg">
+<img src="A3.jpeg">
     <section id="perfil">
         <h2>Completa tu perfil genético</h2>
         <form id="formPerfil">
