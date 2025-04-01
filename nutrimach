@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrimach - Recomendaciones Nutricionales Personalizadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nutrimach</h1>
+        <p>Recomendaciones nutricionales basadas en tu perfil genético.</p>
+    </header>
+
+    <section id="introduccion">
+        <h2>¿Cómo funciona Nutrimach?</h2>
+        <p>Nutrimach utiliza análisis genéticos para brindarte recomendaciones alimenticias personalizadas. Indica tus datos y obtén un plan de nutrición adecuado para tu perfil.</p>
+    </section>
+
+    <section id="perfil">
+        <h2>Completa tu perfil genético</h2>
+        <form id="formPerfil">
+            <label for="fto">¿Tienes predisposición genética a la obesidad? (FTO gene)</label>
+            <select id="fto" name="fto">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+            
+            <label for="mc4r">¿Tienes predisposición genética a un apetito elevado? (MC4R gene)</label>
+            <select id="mc4r" name="mc4r">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+            
+            <label for="pparg">¿Tienes resistencia a la insulina? (PPARG gene)</label>
+            <select id="pparg" name="pparg">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+            
+            <button type="submit">Obtener recomendaciones</button>
+        </form>
+    </section>
+
+    <section id="resultado">
+        <h2>Tu Plan de Nutrición</h2>
+        <p id="recomendaciones">Aquí aparecerán tus recomendaciones personalizadas.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nutrimach. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
